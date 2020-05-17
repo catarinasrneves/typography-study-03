@@ -45,7 +45,7 @@ inputimg.position(20,130);
   sSlider.position(20, 220);
   pSlider = createSlider(window.innerWidth/4,window.innerWidth/1.1);
   pSlider.position(20, 250);
-    hSlider = createSlider(window.innerHeight/28, window.innerHeight/1.15);
+hSlider = createSlider(window.innerHeight/28, window.innerHeight/1.15);
   hSlider.position(20, 280);
     
     
@@ -84,12 +84,12 @@ inputimg.position(20,130);
     
     
     // create sliders colors
-  crSlider = createSlider(0, 255, 100);
-  crSlider.position(20, 440);
-  cgSlider = createSlider(0, 255, 0);
-  cgSlider.position(20, 470);
-  cbSlider = createSlider(0, 255, 255);
-  cbSlider.position(20, 500);
+  //crSlider = createSlider(0, 255, 100);
+  //crSlider.position(20, 440);
+  //cgSlider = createSlider(0, 255, 0);
+  //cgSlider.position(20, 470);
+  //cbSlider = createSlider(0, 255, 255);
+  //cbSlider.position(20, 500);
     
     
    
@@ -139,9 +139,9 @@ text('position y', hSlider.x * 2 + hSlider.width, 295);
   
  push();   
 
-const r = crSlider.value();
-const g = cgSlider.value();
-const b = cbSlider.value();
+//const r = crSlider.value();
+//const g = cgSlider.value();
+//const b = cbSlider.value();
     
     
 fill(230);
@@ -150,9 +150,9 @@ rect(width/5,0,width,height);
   pop(); 
     
 
-text('r', crSlider.x * 2 + crSlider.width, 450);
-text('g', cgSlider.x * 2 + cgSlider.width, 480);
-text('b', cbSlider.x * 2 + cbSlider.width, 515);
+//text('r', crSlider.x * 2 + crSlider.width, 450);
+//text('g', cgSlider.x * 2 + cgSlider.width, 480);
+//text('b', cbSlider.x * 2 + cbSlider.width, 515);
     
 p.style('font-size' ,sSlider.value()+'px');
 p.style('text-align', 'center');
